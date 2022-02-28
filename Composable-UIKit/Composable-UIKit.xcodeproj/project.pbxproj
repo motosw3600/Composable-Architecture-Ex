@@ -14,6 +14,7 @@
 		E9BD4ED427CCB7FC00A7911A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9BD4ED327CCB7FC00A7911A /* Assets.xcassets */; };
 		E9BD4ED727CCB7FC00A7911A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9BD4ED527CCB7FC00A7911A /* LaunchScreen.storyboard */; };
 		E9BD4EE227CCB84A00A7911A /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = E9BD4EE127CCB84A00A7911A /* ComposableArchitecture */; };
+		E9BD4EE427CCB8EB00A7911A /* StateStoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BD4EE327CCB8EB00A7911A /* StateStoreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		E9BD4ED327CCB7FC00A7911A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9BD4ED627CCB7FC00A7911A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9BD4ED827CCB7FC00A7911A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9BD4EE327CCB8EB00A7911A /* StateStoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateStoreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				E9BD4EDF27CCB80F00A7911A /* AppDelegate */,
 				E9BD4EDE27CCB80100A7911A /* Resources */,
 				E9BD4ECE27CCB7F900A7911A /* ViewController.swift */,
+				E9BD4EE327CCB8EB00A7911A /* StateStoreViewController.swift */,
 			);
 			path = "Composable-UIKit";
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 			files = (
 				E9BD4ECF27CCB7F900A7911A /* ViewController.swift in Sources */,
 				E9BD4ECB27CCB7F900A7911A /* AppDelegate.swift in Sources */,
+				E9BD4EE427CCB8EB00A7911A /* StateStoreViewController.swift in Sources */,
 				E9BD4ECD27CCB7F900A7911A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
